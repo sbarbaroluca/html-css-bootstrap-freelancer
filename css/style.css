@@ -132,6 +132,7 @@ footer {
      line-height: 80px;
      background-color: #2C3E50;
      text-align: center;
+     box-sizing: border-box;
  }
  #footer_bottom p {
      font-size: 10px;
@@ -150,4 +151,18 @@ footer {
      height: 30px;
      color: #fff;
      line-height: 60px;
+ }
+
+ .star {
+     border: 3px solid #2C3E50;
+ }
+ #star-line {
+     font-size: 40px;
+ }
+
+ #list {
+     color: #fff;
+     list-style: none;
+     display: block;
+     box-sizing: border-box;
  }
